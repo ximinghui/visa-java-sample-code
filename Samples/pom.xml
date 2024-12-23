@@ -4,63 +4,63 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>Samples</groupId>
-    <packaging>jar</packaging>
+    
     <artifactId>Samples</artifactId>
     <version>1.0.0</version>
     <dependencies>
         <dependency>
             <groupId>com.visa</groupId>
-            <artifactId>vdp-sample-java-funds-transfer</artifactId>
+            <artifactId>funds-transfer</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.visa</groupId>
-            <artifactId>vdp-sample-java-merchant-search</artifactId>
+            <artifactId>merchant-search</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.visa</groupId>
-            <artifactId>vdp-sample-java-mvisa</artifactId>
+            <artifactId>mvisa</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.visa</groupId>
-            <artifactId>vdp-sample-java-offers-data-api</artifactId>
+            <artifactId>offers-data-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.visa</groupId>
-            <artifactId>vdp-sample-java-query</artifactId>
+            <artifactId>query</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.visa</groupId>
-            <artifactId>vdp-sample-java-reference-data-api</artifactId>
+            <artifactId>reference-data-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.visa</groupId>
-            <artifactId>vdp-sample-java-refund-api</artifactId>
+            <artifactId>refund-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.visa</groupId>
-            <artifactId>vdp-sample-java-reports-api</artifactId>
+            <artifactId>reports-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.visa</groupId>
-            <artifactId>vdp-sample-java-storm-api</artifactId>
+            <artifactId>storm-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.visa</groupId>
-            <artifactId>vdp-sample-java-ws</artifactId>
+            <artifactId>ws</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.visa</groupId>
-            <artifactId>vdp-sample-java-linked-api</artifactId>
+            <artifactId>linked-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>

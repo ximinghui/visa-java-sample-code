@@ -1,4 +1,46 @@
+# 忽略Maven相关的项目编译产出文件
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# 忽略构建工具相关文件
+.mvn
+.gradle
+.flattened-pom.xml
+
+# 忽略IntelliJ IDEA相关的项目管理文件
+.idea/
+*.iws
 *.iml
-*.DS_Store
-*.idea/
-Samples/target/
+*.ipr
+
+# 忽略Eclipse相关的项目管理文件
+.apt_generated
+.classpath
+.factorypath
+.projectc
+.settings
+.springBeans
+.sts4-cache
+.project
+
+# 忽略NetBeans相关的项目管理文件
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# 忽略VS Code相关的项目管理文件
+.vscode/
+
+# 忽略Mac OS文件系统相关文件
+.DS_Store
+
+# 忽略项目产出文件
+logs/
+*.log
+/bin/

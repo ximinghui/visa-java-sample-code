@@ -3,22 +3,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>JavaSampleCode</groupId>
-    <packaging>pom</packaging>
-    <artifactId>JavaSampleCode</artifactId>
+
+    <groupId>org.ximinghui.visa</groupId>
+    <artifactId>visa-java-sample-code</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
     <modules>
         <module>Samples</module>
-        <module>vdp-sample-java-funds-transfer</module>
-        <module>vdp-sample-java-merchant-search</module>
-        <module>vdp-sample-java-mvisa</module>
-        <module>vdp-sample-java-offers-data-api</module>
-        <module>vdp-sample-java-query</module>
-        <module>vdp-sample-java-reference-data-api</module>
-        <module>vdp-sample-java-refund-api</module>
-        <module>vdp-sample-java-reports-api</module>
-        <module>vdp-sample-java-storm-api</module>
-        <module>vdp-sample-java-ws</module>
-        <module>vdp-sample-java-linked-api</module>
+        <module>funds-transfer</module>
+        <module>merchant-search</module>
+        <module>mvisa</module>
+        <module>offers-data-api</module>
+        <module>query</module>
+        <module>reference-data-api</module>
+        <module>refund-api</module>
+        <module>reports-api</module>
+        <module>storm-api</module>
+        <module>ws</module>
+        <module>linked-api</module>
     </modules>
+
 </project>
